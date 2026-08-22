@@ -8,10 +8,11 @@
             display: flex;
             justify-content: center;
             transition: all .5s;
+            margin-right: 100px;
         }
         .face {
 width: 100px;
-height: 100px;
+height: 200px;
 
 display:flex;
             justify-content:center;
@@ -20,16 +21,45 @@ display:flex;
             position: absolute;
         }
         #front{
-            background-color: rgb(61, 117, 117);
+            background-color: rgb(230, 175, 223);
             transform: rotateY(180deg);
         }
         #back{
-            background-color: blue;
+            background-color: rgb(170, 170, 230);
             backface-visibility: hidden;
         }
         .flip{
  transform: rotateY(180deg);
         } 
-        .hover{
+      
+        
+         #card1{
+            margin-left: 200px;
+            transform-style: preserve-3d;
+            display: flex;
+            justify-content: center;
+            transition: all .5s;
+         
+        }
+        .face1 {
+width: 100px;
+height: 200px;
+
+display:flex;
+            justify-content:center;
+            align-items: center;
+            color: white;
+            position: absolute;
+        }
+        #front1{
+            background-color: rgb(230, 175, 223);
             transform: rotateY(180deg);
         }
+        #back1{
+            background-color: rgb(170, 170, 230);
+            backface-visibility: hidden;
+        }
+        .flip1{
+ transform: rotateY(180deg);
+        } 
+   
